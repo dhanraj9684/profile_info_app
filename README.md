@@ -1,17 +1,48 @@
-# profile_info_app
+# 📄 Profile Info App
 
-A new Flutter project.
+A Flutter app that scrapes faculty and staff profiles from the Azim Premji University website and exports the data as a downloadable PDF with names, locations, interests, and profile pictures.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- Scrapes all people pages from Azim Premji University website
+- Extracts name, location, and research interests for each person
+- Downloads and embeds profile images into the PDF
+- Exports everything as a neatly formatted PDF file
+- Share or save the PDF directly from the app
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚠️ Known Issues
+
+- Scraping 18 pages takes some time, app may appear frozen while loading
+- Some profile images may not load due to lazy loading on the website
+- UI is minimal
+
+---
+
+## 🛠️ Built With
+
+- Flutter & Dart
+- http
+- html
+- pdf
+- printing
+
+---
+
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/dhanraj9684/profile_info_app.git
+cd profile_info_app
+flutter pub get
+flutter run
+```
+
+---
+
+## 👨‍💻 Developer
+
+Made by Dhanraj — Information Science Student
